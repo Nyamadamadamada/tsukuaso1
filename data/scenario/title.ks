@@ -4,28 +4,24 @@
 @clearstack
 @bg storage ="title.png" time=100
 @wait time = 200
-@playbgm time="3000" storage=music.ogg loop=true volume=60
+@playbgm time="3000" storage=music.ogg loop=true volume=30
 
 *start 
-[chara_new  name="kana_title" storage="chara/kana/kana_title.png" jname="ねね"  ]
+[chara_new  name="kana_title" storage="chara/kana/kana_title.png" jname="かな"  ]
 [chara_new  name="nene_title" storage="chara/nene/nene_title.png" jname="ねね"  ]
-[chara_new  name="2_title" storage="chara/nene/2_title.png" jname="ふたり"  ]
 
 [eval exp="f.is_nene=null"]
 [iscript]
-f.is_nene = Math.floor(Math.random()*3)
+f.is_nene = Math.floor(Math.random()*2)
 [endscript]
 
 
 [if exp="f.is_nene === 0"]
 	[chara_show name="kana_title" wait=false left=1000 top=200]
 	[chara_move name="kana_title" time=500 left="-=300" anim=true effect=easeInQuad wait=false]
-[elsif exp="f.is_nene === 1"]
-  [chara_show name="nene_title" wait=false left=1000 top=200]
-	[chara_move name="nene_title" time=500 left="-=300" anim=true effect=easeInQuad wait=false]
 [else]
-  [chara_show name="2_title" wait=false left=1000 top=200]
-	[chara_move name="2_title" time=500 left="-=300" anim=true effect=easeInQuad wait=false]
+  [chara_show name="nene_title" wait=false left=1000 top=180]
+	[chara_move name="nene_title" time=500 left="-=200" anim=true effect=easeInQuad wait=false]
 [endif]
 
 
@@ -38,6 +34,8 @@ f.is_nene = Math.floor(Math.random()*3)
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
+[chara_hide_all time=100 wait=false]
+
 @jump storage="scene1.ks"
 
 
