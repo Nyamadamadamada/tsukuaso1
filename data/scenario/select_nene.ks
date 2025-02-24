@@ -842,9 +842,9 @@ iDeCoには節税効果があるって[r]
 
 #
 うん！これからもよろしくね！[p]
+[skipstop]
 [position layer="message0" left=160 top=500 width=1000 height=200 page=fore visible=false]
 [wait time=1500]
-
 
 
 @jump storage="end.ks"

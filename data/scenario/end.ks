@@ -11,9 +11,8 @@
 [bg storage="end3.png" time=500]
 [wait time="3500"]
 [bg storage="end4.png" time=500]
-
+[wait time="500"]
 [position layer="message0" left=160 top=500 width=1000 height=200 page=fore visible=true]
-
-HAPPYエンド[l]
+HAPPYエンド[p]
 [freeimage layer=0]
 @jump storage="first.ks"
