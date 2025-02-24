@@ -44,11 +44,6 @@
 [chara_face name="nene" face="困る" storage="chara/nene/困る.png"]
 [chara_face name="nene" face="上目遣い" storage="chara/nene/上目遣い.png"]
 
-;ねねデート服
-[chara_new  name="nene_date" storage="chara/nene/デート_default.png" jname="ねね"  ]
-[chara_face name="nene_date" face="デート_照れ" storage="chara/nene/デート_照れ.png"]
-[chara_face name="nene_date" face="デート_ほほえみ" storage="chara/nene/デート_ほほえみ.png"]
-
 
 ;kana
 [chara_new  name="kana"  storage="chara/kana/normal.png" jname="かな" ]

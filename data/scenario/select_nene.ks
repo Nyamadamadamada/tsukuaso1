@@ -649,6 +649,12 @@ BAD END[p]
 待ち合わせ場所まで着いたぞ。[p]
 ねねさんはどこかな[p]
 
+;ねねデート服
+[chara_new  name="nene_date" storage="chara/nene/date_default.png" jname="ねね"  ]
+[chara_face name="nene_date" face="デート_照れ" storage="chara/nene/デート_照れ.png"]
+[chara_face name="nene_date" face="デート_ほほえみ" storage="chara/nene/デート_ほほえみ.png"]
+
+
 @chara_show name="nene_date"
 
 
