@@ -818,7 +818,7 @@ iDeCoには節税効果があるって[r]
 
 [wait time=500]
 
-[bg storage="デート1.jpg" time=1000]
+[bg storage="date1.jpg" time=1000]
 
 #ねね
 どう？年末調整[p]
@@ -833,7 +833,7 @@ iDeCoには節税効果があるって[r]
 ...[p]
 そ、[p]
 
-[bg storage="デート2.jpg" time=100]
+[bg storage="date2.jpg" time=100]
 
 #ねね
 まぁ、[p]
