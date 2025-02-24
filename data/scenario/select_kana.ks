@@ -134,7 +134,7 @@
 
 @playbgm time="3000" storage=灰色の気配.ogg loop=true volume=60
 
-[bg storage="かな_うる1.jpg" time=500]
+[bg storage="kana_uru1.jpg" time=500]
 
 #かな
 も〜[p]
@@ -149,7 +149,7 @@
 ...[p]
 
 [stopbgm]
-[bg storage="かな_うる2.jpg" time=100]
+[bg storage="kana_uru2.jpg" time=100]
 [playse storage=チリン.mp3 loop=false]
 
 
@@ -161,7 +161,7 @@
 #
 え...？いや...[p]
 
-[bg storage="かな_にっこり.jpg" time=100]
+[bg storage="kana_smile.jpg" time=100]
 
 
 #かな
@@ -179,7 +179,7 @@
 #
 え、えと....[p]
 
-[bg storage="かな_死んだ目.jpg" time=100]
+[bg storage="kana_dead.jpg" time=100]
 
 [position layer=message0 page=fore margint="45" marginl="50" marginr="70" marginb="60"]
 
