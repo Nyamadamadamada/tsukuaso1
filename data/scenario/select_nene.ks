@@ -651,8 +651,8 @@ BAD END[p]
 
 ;ねねデート服
 [chara_new  name="nene_date" storage="chara/nene/date_default.png" jname="ねね"  ]
-[chara_face name="nene_date" face="デート_照れ" storage="chara/nene/デート_照れ.png"]
-[chara_face name="nene_date" face="デート_ほほえみ" storage="chara/nene/デート_ほほえみ.png"]
+[chara_face name="nene_date" face="date_tere" storage="chara/nene/date_tere.png"]
+[chara_face name="nene_date" face="date_emi" storage="chara/nene/date_emi.png"]
 
 
 @chara_show name="nene_date"
@@ -667,7 +667,7 @@ BAD END[p]
 うんん、俺も今来たところだから[p]
 私服、似合ってるね！[p]
 
-#nene_date:デート_照れ
+#nene_date:date_tere
 
 #ねね
 ...[p]
@@ -750,7 +750,7 @@ BAD END[p]
 バランス型だよ。[p]
 国内債券、国内株式、外国債券、外国株式の4資産に分散投資しているんだ。[p]
 
-#nene_date:デート_ほほえみ
+#nene_date:date_emi
 #ねね
 そうなの。手堅いわね。[p]
 
@@ -785,7 +785,7 @@ iDeCoの掛金は、「小規模企業共済等掛金控除」の対象なの[p]
 #
 うわ..漢字が多過ぎて読めない。[p]
 
-#nene_date:デート_ほほえみ
+#nene_date:date_emi
 
 #ねね
 iDeCoには節税効果があるって[r]
